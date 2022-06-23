@@ -1,0 +1,106 @@
+section{
+    padding: 60px 0;
+}
+.enjoy_your_healthy{
+    min-height: 70vh;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        max-height: 500px;
+        margin-bottom: 40px ;
+    }
+   
+}
+@media screen and(max-width:996px) {
+    .enjoy_your_healthy{
+        img{
+            max-height: 300px;
+            margin-bottom: 40px ;
+        }
+    }
+}
+.enjoy_your_healthy_box{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.enjoy_your_healthy_box_btns{
+    display: flex;
+    gap: 20px;
+}
+.enjoy_your_healthy_box_btns_book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: red;
+    color: #fff;
+    border-radius: 200px;
+}
+.enjoy_your_healthy_box_btns_video{
+    padding: 10px 20px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i{
+        font-size: 28px;
+        color: red;
+        margin-right: 5px;
+    }
+}
+// ourmenu start
+.ourmenu{
+min-height: 50vh;
+}
+.ourmenu_cardbox{
+    margin-top: 40px;
+}
+.ourmenu_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    img{
+        width: 300px;
+    }
+    .ourmenu_card_header{
+        font-size: 22px;
+    }
+    .ourmenu_card_content{
+        font-size: 16px;
+    }
+    .ourmenu_card_price{
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+// ourmenu end
+// form start
+.form{
+    min-height: 40vh;
+}
+.formbox{
+    img{
+        max-height: 500px;
+    }
+}
+.formbox_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 244, 244);
+}
+@media screen and(max-width:996px) {
+    .formbox{
+        img{
+            max-height: 380px;
+        }
+    }
+}
+// form end
